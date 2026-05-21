@@ -18,6 +18,9 @@ html, body {
 body {
   margin: 0 auto;
   padding: 30px;
+
+  background-color: #f4f7f9;
+        
   color: #333;
 
   width:90%;
