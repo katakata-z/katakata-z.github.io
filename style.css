@@ -27,6 +27,38 @@ body {
   line-height:1.7;
 }
 
+/* --------------------
+      コンテナ
+-------------------- */
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --------------------
+      プロフィール
+-------------------- */
+
+.profile {
+  text-align: center;
+}
+
+.top-text {
+  color: #666;
+}
+
+
 img{
   width:250px;
    max-width: 100%;
@@ -91,4 +123,10 @@ th {
 th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
+}
+
+iframe {
+  margin-top: 20px;
+
+  border-radius: 10px;
 }
